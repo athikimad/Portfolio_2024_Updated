@@ -8,7 +8,7 @@
 /* Prevent horizontal scrolling */
 html, body {
     overflow-x: hidden;
-	overflow:hiden;
+overflow-y:hiden;
 }
 
 /* Body and anchor styling */
@@ -1043,8 +1043,7 @@ a:active {
 
 
 .footer {
-    background-color: #04091e;
-    padding: 15px;
+    background-color: #04091e;    
     text-align: center;
     margin-top: auto;
     width: 100%;
@@ -1053,13 +1052,15 @@ a:active {
 .footer p a {
     color: yellow!important;
     text-decoration: none;
+	padding-top: 10px;
+padding-bottom:10px;
+
 }
 @media (max-width:768px) {
     .footer {
         background: #04091e;
-        padding: 10px;
         text-align: center;
-        max-width: 770px;
+        
 
     }
     .footer p a {
