@@ -61,15 +61,15 @@ developer: "Imad Hussain",
   },
   {
     id: 2,
-    name: "Online Food Order System",
+    name: "Online Food Order",
     developer: "Imad Hussain",
     service: "Web Development",
-    year: 2018,
+    year: 2019,
     liveLink: "",
     githubLink: "https://github.com/developerimadhussain/Online-Food-Order",
     technology: ["HTML5", "CSS3", "JavaScript","Bootstrap", "PHP", "MySQL"],
     description: `
-      The 'Online Food Order System' is a web-based platform designed to simplify the process of ordering food from restaurants. It features a user-friendly interface where users can browse food items, add them to the cart, and place orders online. The system supports three roles: Admin, Employee, and Normal User, each with specific functionalities tailored to their needs.
+      The 'Online Food Order' is a web-based platform designed to simplify the process of ordering food from restaurants. It features a user-friendly interface where users can browse food items, add them to the cart, and place orders online. The system supports three roles: Admin, Employee, and Normal User, each with specific functionalities tailored to their needs.
     `,
     features: [
       { title: "User Role Management", description: "Admin, Employee, and Normal Users have distinct roles with specific functionalities." },
@@ -86,7 +86,7 @@ developer: "Imad Hussain",
   },
 {
 id: 1,
-    name: "Bookshop Management system",
+    name: "BookShop",
     developer: "Imad Hussain",
     service: "Web Development",
     year: 2018,
