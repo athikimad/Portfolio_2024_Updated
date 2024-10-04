@@ -382,12 +382,40 @@
                 <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8618.505377791482!2d91.91906048893114!3d24.739403421113344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3751af2484bd7c37%3A0xf08f34c53abd4b32!2sKatalpur%20Bazar!5e0!3m2!1sen!2sbd!4v1584092108331!5m2!1sen!2sbd" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
             </div>
 
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="115">
-                <form id="contactForm" action="https://api.web3forms.com/submit" method="POST" role="form" class="php-email-form">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="115"><form id="contactForm" action="https://api.web3forms.com/submit" method="POST" role="form" class="php-email-form">
+    <div class="row">
+        <div class="col form-group" data-aos="fade-up" data-aos-delay="118">
+            <input type="hidden" name="access_key" value="bcbfde4a-d939-4a16-bd11-81f1221f662b"> <!-- Replace with your Access Key -->
+            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+        </div>
+        <div class="col form-group" data-aos="fade-up" data-aos-delay="121">
+            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+        </div>
+    </div>
+    <div class="form-group" data-aos="fade-up" data-aos-delay="124">
+        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+    </div>
+    <div class="form-group" data-aos="fade-up" data-aos-delay="127">
+        <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+    </div>
+    <div class="my-3" data-aos="fade-up" data-aos-delay="135">
+        <div class="loading" style="display: none;">
+            Loading...
+        </div>
+    </div>
+    <div class="text-center" data-aos="fade-up" data-aos-delay="130">
+        <button type="submit">Send Message</button>
+    </div>
+    <!-- Success message div -->
+    <div id="successMessage" style="display: none; color: green; margin-top: 10px;">Your message has been sent. Thank you!</div>
+</form>
+
+               <!-- <form id="contactForm" action="https://api.web3forms.com/submit" method="POST" role="form" class="php-email-form">
                     <div class="row">
                         <div class="col form-group" data-aos="fade-up" data-aos-delay="118">
-                            <!-- Replace with your Access Key -->
-                            <input type="hidden" name="access_key" value="bcbfde4a-d939-4a16-bd11-81f1221f662b"> <!-- Replace with your Access Key -->
+                            <!-- Replace with your Access Key 
+                            <input type="hidden" name="access_key" value="bcbfde4a-d939-4a16-bd11-81f1221f662b"> <!-- Replace with your Access Key 
 
                             <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
                         </div>
@@ -400,7 +428,7 @@
                     </div>
                     <div class="form-group" data-aos="fade-up" data-aos-delay="127">
                         <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-                        <!-- Honeypot Spam Protection -->
+                        <!-- Honeypot Spam Protection 
                         <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
                     </div>
                     <div class="my-3" data-aos="fade-up" data-aos-delay="135">
@@ -410,22 +438,22 @@
 
                         <!--<div class="sent-message">
                             Your message has been sent. Thank you!
-                        </div>-->
+                        </div>
                     </div>
                     <div class="text-center" data-aos="fade-up" data-aos-delay="130">
                         <button type="submit">Send Message</button>
                     </div>
                 </form>
 
-                <!-- Div for displaying the success message -->
+                <!-- Div for displaying the success message 
                 <div id="successMessage" style="display: none; background-color: #d4edda; color: #155724; padding: 15px; margin-top: 10px;">
                     Your message has been successfully sent!
                 </div>
 
-                <!-- Div for displaying the error message -->
+                <!-- Div for displaying the error message 
                 <div id="errorMessage" style="display: none; background-color: #f8d7da; color: #721c24; padding: 15px; margin-top: 10px;">
                     Something went wrong. Please try again later.
-                </div>
+                </div>-->
 
 
             </div>
@@ -510,7 +538,7 @@
     });
 </script>
 <script>
-    $(document).ready(function() {
+    /*$(document).ready(function() {
         $('#contactForm').on('submit',
             async function(e) {
                 e.preventDefault(); // Prevent the form from reloading the page
@@ -563,7 +591,33 @@
         texts[currentTextIndex].style.display = 'inline-block';
     }
 
-    setInterval(showNextText, 3000); // Change text every 3 seconds
+    setInterval(showNextText, 3000); // Change text every 3 seconds*/
+    document.getElementById("contactForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent the default form submission
+
+    // Simulating an API call
+    const formData = new FormData(this);
+    
+    // Sending form data using fetch API
+    fetch(this.action, {
+        method: this.method,
+        body: formData,
+    })
+    .then(response => {
+        if (response.ok) {
+            // Show the success message
+            document.getElementById("successMessage").style.display = "block";
+            this.reset(); // Reset form fields after submission
+        } else {
+            // Handle error response
+            console.error("Submission failed.");
+        }
+    })
+    .catch(error => {
+        console.error("Error occurred:", error);
+    });
+});
+
 
 </script>
 
