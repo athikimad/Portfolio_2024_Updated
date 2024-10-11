@@ -94,7 +94,8 @@ id: 1,
     githubLink: "https://github.com/developerimadhussain/Book-Shop",
     technology: ["HTML5",
         "CSS3",
-        "JavaScript",
+        "JavaScript"
+        ,"Bootstrap",
         "PHP",
         "MySQL"],
     description: `
