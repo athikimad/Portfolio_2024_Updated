@@ -37,7 +37,7 @@ const projects = [
 developer: "Imad Hussain",
     service: "Web Development",
     year: 2020,
-    liveLink: "http://2ndfoundation.liveblog365.com/",
+    liveLink: "http://2ndfoundation.great-site.net/",
     githubLink: "https://github.com/developerimadhussain/Web-Projects-2ndFoundation",
     technology: ["HTML5", "CSS3", "JavaScript","Bootstrap","jQuery", "PHP", "MySQL", "SSLCommerz Payment Gateway"],
     description: `
