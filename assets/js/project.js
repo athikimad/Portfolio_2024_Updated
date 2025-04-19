@@ -18,11 +18,12 @@ const projects = [
   { title: "Shopping Cart", description: "Users can add products to their cart and view cart summaries before placing an order." },
   { title: "Checkout and Payment", description: "The system supports order placement with a secure payment gateway integration." },
   { title: "Order Management", description: "Users can track their orders and view their order history." },
-  { title: "Admin Login and Dashboard", description: "Admins can log in to access a dashboard with key site metrics and quick actions." },
+  { title: "Admin Panel Access", description: "Authorized admins can log in securely to manage the website content and operations through a dedicated admin panel." },
   { title: "Product and Category Management", description: "Admins can add, edit, and delete products and categories." },
   { title: "Customer Order Control", description: "Admins can view, update, and manage customer orders and order statuses." },
   { title: "Responsive Design", description: "Fully responsive layout that works across desktops, tablets, and smartphones." }
 ],
+
     images: [
       "assets/imgs/projects/easytobuy_pic_1.png",
       "assets/imgs/projects/easytobuy_pic_2.png",
