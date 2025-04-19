@@ -24,10 +24,10 @@ const projects = [
   { title: "Responsive Design", description: "Fully responsive layout that works across desktops, tablets, and smartphones." }
 ],
     images: [
-      "assets/imgs/projects/easy_to_buy_1.jpg",
-      "assets/imgs/projects/easy_to_buy_2.jpg",
-      "assets/imgs/projects/easy_to_buy_3.jpg",
-      "assets/imgs/projects/easy_to_buy_4.jpg"
+      "assets/imgs/projects/easytobuy_pic_1.png",
+      "assets/imgs/projects/easytobuy_pic_2.png",
+      "assets/imgs/projects/easytobuy_pic_3.png",
+      "assets/imgs/projects/easytobuy_pic_4.png"
     ]
   },  
   {
