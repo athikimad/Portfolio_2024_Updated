@@ -1,4 +1,35 @@
 const projects = [
+  
+  {
+    id: 5,
+    name: "Easy To Buy",
+    developer: "Imad Hussain",
+    service: "Web Development",
+    year: "2025",
+    liveLink:   "http://easytobuy.rf.gd/",
+    githubLink: "",
+    technology: ["HTML5", "CSS3", "JavaScript","Bootstrap","jQuery", "PHP", "MySQL","Ajax"],
+    description: `
+      'EasyToBuy is a fully functional e-commerce web application developed to provide users with a smooth and secure online shopping experience. It allows customers to browse products, add them to cart, and place orders through an integrated payment system. Admins can manage products, categories, and orders through a dedicated admin panel. The system is mobile-friendly and optimized for real-time user interaction.`,
+    features: [
+  { title: "User Registration and Login", description: "Users can create accounts and securely log in to access shopping features." },
+  { title: "Product Browsing and Search", description: "Customers can browse products by category or search by name and price." },
+  { title: "Product Details View", description: "Each product has a dedicated page with images, descriptions, and pricing." },
+  { title: "Shopping Cart", description: "Users can add products to their cart and view cart summaries before placing an order." },
+  { title: "Checkout and Payment", description: "The system supports order placement with a secure payment gateway integration." },
+  { title: "Order Management", description: "Users can track their orders and view their order history." },
+  { title: "Admin Login and Dashboard", description: "Admins can log in to access a dashboard with key site metrics and quick actions." },
+  { title: "Product and Category Management", description: "Admins can add, edit, and delete products and categories." },
+  { title: "Customer Order Control", description: "Admins can view, update, and manage customer orders and order statuses." },
+  { title: "Responsive Design", description: "Fully responsive layout that works across desktops, tablets, and smartphones." }
+],
+    images: [
+      "assets/imgs/projects/easy_to_buy_1.jpg",
+      "assets/imgs/projects/easy_to_buy_2.jpg",
+      "assets/imgs/projects/easy_to_buy_3.jpg",
+      "assets/imgs/projects/easy_to_buy_4.jpg"
+    ]
+  },  
   {
     id: 4,
     name: "MA Studio and Stationary",
