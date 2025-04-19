@@ -10,7 +10,7 @@ const projects = [
     githubLink: "",
     technology: ["HTML5", "CSS3", "JavaScript","Bootstrap","jQuery", "PHP", "MySQL","Ajax"],
     description: `
-      'EasyToBuy is a fully functional e-commerce web application developed to provide users with a smooth and secure online shopping experience. It allows customers to browse products, add them to cart, and place orders through an integrated payment system. Admins can manage products, categories, and orders through a dedicated admin panel. The system is mobile-friendly and optimized for real-time user interaction.`,
+      'EasyToBuy' is a fully functional e-commerce web application developed to provide users with a smooth and secure online shopping experience. It allows customers to browse products, add them to cart, and place orders through an integrated payment system. Admins can manage products, categories, and orders through a dedicated admin panel. The system is mobile-friendly and optimized for real-time user interaction.`,
     features: [
   { title: "User Registration and Login", description: "Users can create accounts and securely log in to access shopping features." },
   { title: "Product Browsing and Search", description: "Customers can browse products by category or search by name and price." },
