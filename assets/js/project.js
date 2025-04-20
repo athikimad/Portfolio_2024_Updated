@@ -5,8 +5,9 @@ const projects = [
     name: "Easy To Buy",
     developer: "Imad Hussain",
     service: "Web Development",
+    Status:'Working",
     year: "2025",
-   // liveLink:   "http://easytobuy.rf.gd/",
+    liveLink:   "http://easytobuy.rf.gd/",
     githubLink: "",
     technology: ["HTML5", "CSS3", "JavaScript","Bootstrap","jQuery", "PHP", "MySQL","Ajax"],
     description: `
