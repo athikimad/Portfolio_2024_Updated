@@ -9,7 +9,7 @@ const projects = [
     year: "2025",
     liveLink:   "http://easytobuy.rf.gd/",
     githubLink: "",
-    technology: ["HTML5", "CSS3", "JavaScript","Bootstrap","jQuery", "PHP", "MySQL","Ajax"],
+    technology: ["HTML5", "CSS3", "JavaScript","Bootstrap","jQuery", "PHP", "MySQL"],
     description: `
       'EasyToBuy' is a fully functional e-commerce web application developed to provide users with a smooth and secure online shopping experience. It allows customers to browse products, add them to cart, and place orders through an integrated payment system. Admins can manage products, categories, and orders through a dedicated admin panel. The system is mobile-friendly and optimized for real-time user interaction.`,
     features: [
