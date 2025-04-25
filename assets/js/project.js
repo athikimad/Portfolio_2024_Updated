@@ -7,7 +7,7 @@ const projects = [
     service: "Web Development",
     status: "Working",
     year: "2025",
-    liveLink:   "http://easytobuy.rf.gd/",
+    liveLink:   "https://easytobuy.rf.gd/",
     githubLink: "",
     technology: ["HTML5", "CSS3", "JavaScript","Bootstrap","jQuery", "PHP", "MySQL"],
     description: `
