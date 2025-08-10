@@ -38,7 +38,7 @@ const projects = [
     developer: "Imad Hussain",
     service: "Web Development",
     year: "2023",
-    liveLink:   "http://mastudiostationary.42web.io/",
+    liveLink:   "http://mastudioandstationary.rf.gd",
     githubLink: "",
     technology: ["HTML5", "CSS3", "JavaScript","Bootstrap","jQuery", "PHP", "MySQL"],
     description: `
@@ -70,7 +70,7 @@ const projects = [
 developer: "Imad Hussain",
     service: "Web Development",
     year: 2020,
-    liveLink: "http://2ndfoundation.great-site.net/",
+    liveLink: "https://2ndfoundation.rf.gd/",
     githubLink: "https://github.com/developerimadhussain/Web-Projects-2ndFoundation",
     technology: ["HTML5", "CSS3", "JavaScript","Bootstrap","jQuery", "PHP", "MySQL", "SSLCommerz Payment Gateway"],
     description: `
