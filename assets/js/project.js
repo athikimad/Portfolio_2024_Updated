@@ -38,7 +38,7 @@ const projects = [
     developer: "Imad Hussain",
     service: "Web Development",
     year: "2023",
-    liveLink:   "http://mastudioandstationary.rf.gd",
+    liveLink:   "https://msas.rf.gd/",
     githubLink: "",
     technology: ["HTML5", "CSS3", "JavaScript","Bootstrap","jQuery", "PHP", "MySQL"],
     description: `
