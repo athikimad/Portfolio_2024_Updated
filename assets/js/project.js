@@ -6,7 +6,7 @@ const projects = [
     service: "Web Development",
     status: "Working",
     year: "2026",
-    liveLinkDemo: "https://amftms.42web.io",
+    liveLink: "https://amftms.42web.io",
    // githubLink: "",
     technology: [
         "HTML5",
