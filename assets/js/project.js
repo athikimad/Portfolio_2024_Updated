@@ -6,7 +6,7 @@ const projects = [
     service: "Web Development",
     status: "Working",
     year: "2026",
-    liveLink: "https://amftms.42web.io",
+    livedemo: "https://amftms.42web.io",
    // githubLink: "",
     technology: [
         "HTML5",
@@ -76,10 +76,12 @@ const projects = [
     ],
 
     images: [
-        "assets/imgs/projects/almarjan_tank_management_1.png",
-        "assets/imgs/projects/almarjan_tank_management_2.png",
-        "assets/imgs/projects/almarjan_tank_management_3.png",
-        "assets/imgs/projects/almarjan_tank_management_4.png"
+        "assets/imgs/projects/amftms_pic_1.png",
+        "assets/imgs/projects/amftms_pic_22.png",
+        "assets/imgs/projects/amftms_pic_3.png",
+        "assets/imgs/projects/amftms_pic_4.png",
+        "assets/imgs/projects/amftms_pic_5.png",
+        "assets/imgs/projects/amftms_pic_6.png"
     ]
 },
   {
