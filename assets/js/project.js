@@ -1,5 +1,87 @@
 const projects = [
-  
+  {
+    id: 6,
+    name: "Al Marjan Tank Management System",
+    developer: "Imad Hussain",
+    service: "Web Development",
+    status: "Working",
+    year: "2026",
+    liveLink: "https://amftms.42web.io",
+   // githubLink: "",
+    technology: [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Bootstrap",
+        "jQuery",
+        "AJAX",
+        "PHP",
+        "MySQL",
+        "DataTables"
+    ],
+
+    description: `
+    'Al Marjan Tank Management System' is a custom-built logistics and request management web application developed for a Saudi Arabia-based company, Al Marjan. The system manages the complete workflow of tank requests, approvals, inventory tracking, and delivery operations through a secure multi-role platform. It helps improve operational efficiency, reduce manual paperwork, and provide real-time tracking for requests and deliveries with a responsive and user-friendly interface.`,
+
+    features: [
+        {
+            title: "Multi-Role Authentication",
+            description: "Separate secure access panels for Super Admin, Admin, Salesman, and Driver with role-based permissions."
+        },
+
+        {
+            title: "Tank Request Management",
+            description: "Salesmen can create and manage tank requests with item details, quantities, and locations."
+        },
+
+        {
+            title: "Request Approval System",
+            description: "Admins can review, approve, cancel, or hold requests through a centralized management panel."
+        },
+
+        {
+            title: "Real-Time Status Tracking",
+            description: "Users can monitor request and delivery progress instantly without page reload using AJAX."
+        },
+
+        {
+            title: "Delivery Management",
+            description: "Drivers can manage assigned deliveries and update delivery statuses after completion."
+        },
+
+        {
+            title: "Drawing & File Upload",
+            description: "Users can securely upload technical drawings, images, and delivery proof documents."
+        },
+
+        {
+            title: "Inventory Calculation",
+            description: "Automatic calculation of delivered and remaining tank quantities for accurate inventory tracking."
+        },
+
+        {
+            title: "Advanced Reporting System",
+            description: "Generate and export operational reports in PDF, Excel, and CSV formats."
+        },
+
+        {
+            title: "Responsive Dashboard",
+            description: "Fully responsive dashboard optimized for desktop, tablet, and mobile devices."
+        },
+
+        {
+            title: "Secure Data Management",
+            description: "Protected authentication, session management, and secure database operations."
+        }
+    ],
+
+    images: [
+        "assets/imgs/projects/almarjan_tank_management_1.png",
+        "assets/imgs/projects/almarjan_tank_management_2.png",
+        "assets/imgs/projects/almarjan_tank_management_3.png",
+        "assets/imgs/projects/almarjan_tank_management_4.png"
+    ]
+},
   {
     id: 5,
     name: "Easy To Buy",
